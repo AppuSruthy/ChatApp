@@ -1,0 +1,33 @@
+.chat-messages-show-container{
+    background: lightblue;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+ }
+ .chat-messages-show-list {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+ }
+ .chat-messages-create-container{
+    background:rgb(134, 134, 228);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+ }
+ .chat-messages-create-input {
+    padding: 12px;
+    margin: 29px 30px;
+    flex:2
+ }
+ .chat-messages-create-button {
+    height: 50px;
+    margin: auto 40px;
+    width: 100px;
+    background-color: pink;
+    color: blueviolet;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    
+ }
